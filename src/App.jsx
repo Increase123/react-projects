@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Accordian from "./components/01-accordian";
 import RandomColor from "./components/02-random-color";
+import StarRating from "./components/03-star-rating";
 
 function App() {
   return (
@@ -12,7 +13,10 @@ function App() {
       {/* <Accordian /> */}
 
       {/* Random Color component */}
-      <RandomColor />
+      {/* <RandomColor /> */}
+
+      {/* Star Rating component */}
+      <StarRating />
     </>
   );
 }
